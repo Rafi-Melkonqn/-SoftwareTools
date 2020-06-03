@@ -7,6 +7,13 @@
   </parent>
   <artifactId>project_A</artifactId>
   <name>project_A</name>
+  <packaging>pom</packaging>
+  
+  	<modules>
+		<module>project_B</module>
+		<module>project_C</module>
+		<module>project_D</module>
+	</modules>
   
   <dependencies>
 		<dependency>
